@@ -10,7 +10,13 @@
 html {
   color: #222;
   font-size: 1em;
-  line-height: 1.4; }
+  line-height: 1.4;
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
 
 /*
  * Remove text-shadow in selection highlight:
@@ -80,11 +86,13 @@ textarea {
 .container {
   width: 400px;
   height: 300px;
-  border: 2px solid green;
-  margin: 50px auto; }
+  border: 2px solid #00ba5d;
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 5px; }
 
 .test {
-  background-color: red; }
+  background-color: #fbd27d; }
 
 /* ==========================================================================
    Helper classes

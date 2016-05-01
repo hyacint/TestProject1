@@ -14,7 +14,15 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -94,31 +102,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+$green: #00ba5d;
+$fill: #fbd27d;
+
 
 .container {
     width: 400px;
     height: 300px;
-    border: 2px solid green;
+    border: 2px solid $green;
     margin: 50px auto;
+    padding: 50px;
+    border-radius: 5px;
 }
 
 .test {
-    background-color: red;
+    background-color: $fill;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
