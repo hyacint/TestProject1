@@ -92,7 +92,8 @@ textarea {
   border-radius: 5px; }
 
 .test {
-  background-color: #fbd27d; }
+  background-color: #fbd27d;
+  color: blue; }
 
 /* ==========================================================================
    Helper classes
