@@ -196,7 +196,7 @@ $fill: #fbd27d;
 
 #box1 { 
     position: absolute;
-    margin: 10px 5px;
+    margin: 10px;
     top: 0px;
     left: 0px;
     right: 66%;
@@ -206,7 +206,7 @@ $fill: #fbd27d;
 
 #box2 { 
     position: absolute;
-    margin: 0px;
+    margin: 10px;
     top: 0px;
     left: 34%;
     right: 34%;
@@ -216,7 +216,7 @@ $fill: #fbd27d;
 
 #box3 { 
     position: absolute;
-    margin: 0px;
+    margin: 10px;
     top: 0px;
     left: 66%;
     right: 0px;
@@ -228,11 +228,11 @@ $fill: #fbd27d;
     position: absolute;
     top: 5px;
     left: 20px;
-    width: 30px;
-    height: 30%;
+    width: 50px;
+    height: 60%;
     border: 1px solid black;
-    background-color: grey;
-    opacity: 0.5;
+    background-color: white;
+    opacity: 0.3;
 }
 
 
