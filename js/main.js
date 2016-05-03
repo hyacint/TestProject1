@@ -1,5 +1,7 @@
 var main = function() {
-  $(".container").addClass("test");
+  $(".button").click(function() {
+
+  });
 }
 
 $(document).ready(main);
